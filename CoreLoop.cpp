@@ -1,3 +1,3 @@
 // input events
-// update game logice
+// update game logic
 // render frame
