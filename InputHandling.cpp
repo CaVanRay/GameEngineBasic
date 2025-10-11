@@ -1,1 +1,2 @@
-
+// Query State
+// Input abstraction
