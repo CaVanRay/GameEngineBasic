@@ -48,4 +48,10 @@ void InitializeGame() {
     // Setup graphics, audio, input systems, load assets, etc.
 }
 
-void
+void ProcessInput() {
+    // Handle keyboard, mouse, gamepad input events
+    // For example, check for a 'quit' event
+    // if (inputSystem.QuitRequested()) { g_isRunning = false; }
+}
+
+void 
