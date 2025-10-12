@@ -21,6 +21,12 @@ int main() {
 
     auto lastFrameTime = std::chrono::high_resolution_clock::now();
     const float targetFrameTime = 1.0f / 60.0f; // Aim for 60 FPS
-
     
+    while (g_isRunning) {
+        auto currentTime = std::chrono::high_resolution_clock::now();
+        float deltaTime = std::chrono::duration<float>(currentTime - lastFrameTime).count();
+        lastFrameTime = currentTime;
+
+        ProcessInput();
+    }
 }
