@@ -7,4 +7,4 @@
 #include <thread> // For sleeping to control frame rate
 #include <iostream> // For basic output
 
-//
+// Forward declarations for simplicity
