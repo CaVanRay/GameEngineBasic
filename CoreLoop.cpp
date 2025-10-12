@@ -28,5 +28,10 @@ int main() {
         lastFrameTime = currentTime;
 
         ProcessInput();
+        UpdateGame(deltaTime);
+        RenderGame();
+
+        // Basic frame rate limiting
+        
     }
 }
