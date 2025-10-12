@@ -8,3 +8,10 @@
 #include <iostream> // For basic output
 
 // Forward declarations for simplicity
+void InitializeGame();
+void ProcessInput();
+void UpdateGame(float deltaTime);
+void RenderGame();
+void ShutdownGame();
+
+
