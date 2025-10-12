@@ -18,5 +18,9 @@ bool g_isRunning = true; // Global flag to control the loop
 
 int main() {
     InitializeGame();
-  
+
+    auto lastFrameTime = std::chrono::high_resolution_clock::now();
+    const float targetFrameTime = 1.0f / 60.0f; // Aim for 60 FPS
+
+    
 }
