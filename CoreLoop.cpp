@@ -43,4 +43,9 @@ int main() {
     return 0;
 }
 
-void 
+void InitializeGame() {
+    std::cout << "Game initialization..." << std::endl;
+    // Setup graphics, audio, input systems, load assets, etc.
+}
+
+void
