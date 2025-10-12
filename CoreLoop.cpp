@@ -54,4 +54,12 @@ void ProcessInput() {
     // if (inputSystem.QuitRequested()) { g_isRunning = false; }
 }
 
-void 
+void UpdateGame(float deltaTime) {
+    // Update game logic:
+    // - Physics calculations
+    // - AI updates
+    // - Game object positions and states
+    // - Collision detection
+    // - etc.
+}
+
