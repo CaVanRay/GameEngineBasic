@@ -32,6 +32,12 @@ int main() {
         RenderGame();
 
         // Basic frame rate limiting
-        
+        auto frameDuration = std::chrono::high_resolution_clock::now() - currentTime;
+        auto sleepTime = std::chrono::duration<float>(targetFrameTime) - frameDuration;
+        if (sleepTime.count() > 0) {
+            std::this_thread::sleep_for(sleepTime);
+        }
     }
+
+    Shut
 }
