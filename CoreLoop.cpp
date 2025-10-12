@@ -14,4 +14,4 @@ void UpdateGame(float deltaTime);
 void RenderGame();
 void ShutdownGame();
 
-
+bool g_isRunning = true; // Global flag to control the loop
