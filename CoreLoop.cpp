@@ -63,3 +63,9 @@ void UpdateGame(float deltaTime) {
     // - etc.
 }
 
+void RenderGame() {
+    // Clear screen
+    // Draw all game objects, UI elements, etc.
+    // Present the rendered frame to the screen
+}
+
