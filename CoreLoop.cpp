@@ -39,5 +39,8 @@ int main() {
         }
     }
 
-    Shut
+    ShutdownGame();
+    return 0;
 }
+
+void 
