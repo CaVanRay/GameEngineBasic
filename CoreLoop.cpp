@@ -69,3 +69,7 @@ void RenderGame() {
     // Present the rendered frame to the screen
 }
 
+void ShutdownGame() {
+    std::cout << "Game shutdown..." << std::endl;
+    // Release resources, clean up systems, etc.
+}
