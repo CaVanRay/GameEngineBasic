@@ -15,3 +15,8 @@ void RenderGame();
 void ShutdownGame();
 
 bool g_isRunning = true; // Global flag to control the loop
+
+int main() {
+    InitializeGame();
+  
+}
